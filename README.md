@@ -12,3 +12,4 @@
 9.- Seleccionar Java(TM) Plataform SE b dentro de las opcciones que se muestran 
 10.-Volver a ejecutar el proyecto 
 11.- Ingresar a Azure portal y localizar la base de datos para ver los resultados 
+a
