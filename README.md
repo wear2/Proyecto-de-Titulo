@@ -1,17 +1,38 @@
-Project Title
+Sistema de recoleccion y visualizacion de datos de procesos 
+
 One Paragraph of project description goes here
 
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Bienvenido 
 
-Prerequisites
-What things you need to install the software and how to install them
+Estas Instrucciones le permitiran tener un copia del proyecto y tenerlo corriendo en su propia PC.Para mas informacion de como utilizar y instalar el sistema porfavor siga leyendo este documento 
 
-Give examples
-Installing
-A step by step series of examples that tell you how to get a development env running
+Prerequisitos de Instalacion 
 
-Say what the step will be
+Para poder Instalar el Sistema UD necesita lo siguiente 
+
+Java SE 13
+Link https://www.java.com/es/download/
+
+Instalacion 
+Se presenta una guia paso a paso de como instalar el Sistema 
+
+Paso 1 Descargas para la version 5.0 del sistema 
+Descargar EasyModbusSimulator y ProyectoexeV5 que se encuentran dentro del mismo Github 
+
+Paso 2 Forma de uso 
+Una vez descargados los 2 programas anteriores porfavor inicie el EasyModbusSimulator 
+Despues vaya al simbolo del Sistema e inicie una consola 
+Dentro de la consola porfavor escriba java -jar ProyectoexeV5 y espere a que se ejucute el sistema 
+
+Paso 3 Revisar los resultados (Solo por esta iteracion)
+Porfavor vaya a la direccion https://portal.azure.com/#home
+Inicie secion dentro del portal de azure en el apartado que dice iniciar secion 
+En el apartado de busqueda porfavor seleccione todo los recursos 
+Una vez seleccionado todo los recursos en la venta que se abre oprima sobre la opccion que dice: hito-3
+En el buscador que se abrira porfavor oprima en Explorador de Datos 
+Una vez echo los pasos anteriores donde dice SQL API oprima donce dice PLC y luego en DATA
+En la ventana que le aparecera oprima sobre alguna de las casillas enumeradas para poder ver el dato alamacenado 
+Fin 
 
 Give the example
 And repeat
@@ -33,19 +54,19 @@ Give an example
 Deployment
 Add additional notes about how to deploy this on a live system
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+Este Sistema Fue construido con las siguiente Herramientas 
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+Eclipse IDE 219 - Para el desarrolo de la aplicacion 
+Maven - Para el manejo de dependencias 
+Microsoft Azure CosmoDB - Para el almacenamiento de datos y visualizacion momentanea 
 
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
+Versiones 
+
+Para las versiones se utilzo GitHub. Para poder versiones anteriores del proyecto y su forma de uso porfavor dirajase al apartado de code de este repisotorio 
+
+Autores 
+
+Gianluca Garofalo - Desarrollador y Tester del Sistema de recolecion y visualizacion de datos de proceso
 
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details
