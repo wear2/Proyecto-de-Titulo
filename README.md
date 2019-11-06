@@ -35,6 +35,13 @@ Descargar SRVDP
 
 Una vez descargados los 3 programas anteriores porfavor inicie el EasyModbusSimulator y el PacketSender
 
+Una vez iniciado el PacketSender porfavor donde dice Adress escriba local host y donde dice port escriba 8050
+
+Una vez completado el paso anterior porfavor complete donde dice Package Name con la informaicon que desee
+
+Una vez iniciado el EasyModbusSimulator porfavor clickee donde dice holding registers y cambie las 10 primeras filas con solo numeros
+
+
 Despues vaya al simbolo del Sistema e inicie una consola 
 
 Dentro de la consola porfavor escriba java -jar SRVDP y espere a que se ejucute el sistema 
