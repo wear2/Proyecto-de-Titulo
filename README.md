@@ -13,21 +13,29 @@ Para poder Instalar el Sistema UD necesita lo siguiente
 Java SE 13
 Link https://www.java.com/es/download/
 
+Zulu 11 (Buscar la version 11.0.5+10)
+https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk
+
+
 ***Instalacion*** 
 
 Se presenta una guia paso a paso de como instalar el Sistema 
 
-**Paso 1 Descargas para la version 5.0 del sistema** 
+**Paso 1 Descargas para la version 5.2 del sistema** 
 
-Descargar EasyModbusSimulator y ProyectoexeV5 que se encuentran dentro del mismo Github 
+Descargar EasyModbusSimulator
+
+Descargar PacketSender 
+
+Descargar SRVDP
 
 **Paso 2 Forma de uso** 
 
-Una vez descargados los 2 programas anteriores porfavor inicie el EasyModbusSimulator 
+Una vez descargados los 3 programas anteriores porfavor inicie el EasyModbusSimulator y el PacketSender
 
 Despues vaya al simbolo del Sistema e inicie una consola 
 
-Dentro de la consola porfavor escriba java -jar ProyectoexeV5 y espere a que se ejucute el sistema 
+Dentro de la consola porfavor escriba java -jar SRVDP y espere a que se ejucute el sistema 
 
 **Paso 3 Revisar los resultados (Solo por esta iteracion)**
 
@@ -48,21 +56,6 @@ En la ventana que le aparecera oprima sobre alguna de las casillas enumeradas pa
 **Fin** 
 
 
-
-****Running the tests***
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
 ***Este Sistema Fue construido con las siguiente Herramientas*** 
 
 Eclipse IDE 219 - Para el desarrolo de la aplicacion 
@@ -79,10 +72,4 @@ Para las versiones se utilzo GitHub. Para poder versiones anteriores del proyect
 
 Gianluca Garofalo - Desarrollador y Tester del Sistema de recolecion y visualizacion de datos de proceso
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
