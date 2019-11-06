@@ -11,9 +11,11 @@ Estas Instrucciones le permitiran tener un copia del proyecto y tenerlo corriend
 Para poder Instalar el Sistema UD necesita lo siguiente 
 
 Java SE 13
+
 Link https://www.java.com/es/download/
 
 Zulu 11 (Buscar la version 11.0.5+10)
+
 https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk
 
 
