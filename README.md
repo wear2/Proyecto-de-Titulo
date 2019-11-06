@@ -48,6 +48,9 @@ Despues vaya al simbolo del Sistema e inicie una consola
 
 Dentro de la consola porfavor escriba java -jar SRVDP y espere a que se ejucute el sistema 
 
+Para finalizar la prueba porfavor cierre la ventana de la consola 
+
+
 **Paso 3 Revisar los resultados (Solo por esta iteracion)**
 
 Porfavor vaya a la direccion https://portal.azure.com/#home
@@ -61,6 +64,8 @@ Una vez seleccionado todo los recursos en la venta que se abre oprima sobre la o
 En el buscador que se abrira porfavor oprima en Explorador de Datos
 
 Una vez echo los pasos anteriores donde dice SQL API oprima donce dice PLC y luego en DATA
+
+Para ver los datos de UDP oprima donde dice PLC2 y luego en DATA UDP
 
 En la ventana que le aparecera oprima sobre alguna de las casillas enumeradas para poder ver el dato alamacenado
 
