@@ -10,7 +10,7 @@ Estas Instrucciones le permitiran tener un copia del proyecto y tenerlo corriend
 
 Para poder Instalar el Sistema UD necesita lo siguiente 
 
-Java SE 13
+Java version 8 update 231
 
 Link https://www.java.com/es/download/
 
@@ -61,8 +61,6 @@ En el buscador que se abrira porfavor oprima en Explorador de Datos
 Una vez echo los pasos anteriores donde dice SQL API oprima donce dice PLC y luego en DATA
 
 En la ventana que le aparecera oprima sobre alguna de las casillas enumeradas para poder ver el dato alamacenado
-
-**Fin** 
 
 
 ***Este Sistema Fue construido con las siguiente Herramientas*** 
