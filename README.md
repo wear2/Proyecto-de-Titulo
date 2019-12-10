@@ -20,6 +20,11 @@ Zulu 11 (Buscar la version 11.0.5+10)
 https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk
 
 
+Powerbi
+
+https://powerbi.microsoft.com/es-es/
+
+
 ***Instalacion*** 
 
 Se presenta una guia paso a paso de como instalar el Sistema 
@@ -30,13 +35,15 @@ Descargar EasyModbusSimulator
 
 Descargar PacketSender 
 
-Descargar SRVDP
+Descargar SRVDPv2
+
+Descargar PoweBi que se encuentra en la seccion code de este git 
 
 **Paso 2 Forma de uso** 
 
 Una vez descargados los 3 programas anteriores porfavor inicie el EasyModbusSimulator y el PacketSender que se encuntran dentro de la seccion code de Github
 
-Despues de iniciar los 2 progrmas anteriores porfavor copie el archivo SRVDP y peguelo en su ESCRITORIO 
+Despues de iniciar los 2 progrmas anteriores porfavor copie el archivo SRVDPv2 y peguelo en su ESCRITORIO 
 
 Una vez iniciado el PacketSender porfavor donde dice Adress escriba local host y donde dice port escriba 8050
 
@@ -46,28 +53,15 @@ Una vez iniciado el EasyModbusSimulator porfavor clickee donde dice holding regi
 
 Despues vaya al simbolo del Sistema e inicie una consola 
 
-Dentro de la consola porfavor escriba java -jar SRVDP y espere a que se ejucute el sistema 
+Dentro de la consola porfavor escriba java -jar SRVDPv2.jar y espere a que se ejucute el sistema 
 
 Para finalizar la prueba porfavor cierre la ventana de la consola 
 
 
-**Paso 3 Revisar los resultados (Solo por esta iteracion)**
+**Paso 3 Revisar los resultados **
 
-Porfavor vaya a la direccion https://portal.azure.com/#home
 
-Inicie secion dentro del portal de azure en el apartado que dice iniciar secion
-
-En el apartado de busqueda porfavor seleccione todo los recursos
-
-Una vez seleccionado todo los recursos en la venta que se abre oprima sobre la opccion que dice: hito-3
-
-En el buscador que se abrira porfavor oprima en Explorador de Datos
-
-Una vez echo los pasos anteriores donde dice SQL API oprima donce dice PLC y luego en DATA
-
-Para ver los datos de UDP oprima donde dice PLC2 y luego en DATA UDP
-
-En la ventana que le aparecera oprima sobre alguna de las casillas enumeradas para poder ver el dato alamacenado
+Abra la powerbi que se encuentra en la seccion code de este git 
 
 
 ***Este Sistema Fue construido con las siguiente Herramientas*** 
@@ -76,7 +70,7 @@ Eclipse IDE 219 - Para el desarrolo de la aplicacion
 
 Maven - Para el manejo de dependencias
 
-Microsoft Azure CosmoDB - Para el almacenamiento de datos y visualizacion momentanea 
+PoweBi - Para la visualizacion 
 
 ***Versiones*** 
 
