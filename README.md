@@ -58,7 +58,7 @@ Dentro de la consola porfavor escriba java -jar SRVDPv2.jar y espere a que se ej
 Para finalizar la prueba porfavor cierre la ventana de la consola 
 
 
-**Paso 3 Revisar los resultados **
+**Paso 3 Revisar los resultados**
 
 
 Abra la powerbi que se encuentra en la seccion code de este git 
